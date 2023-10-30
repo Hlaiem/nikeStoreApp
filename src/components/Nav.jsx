@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { hamburger } from "../assets/icons";
-import { headerLogo } from "../assets/images";
+// import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants";
 import SignInSignUpModal from "./SignInSignUp";
+import Sidebar from "./sidebar";
 
 const Nav = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -54,7 +55,8 @@ const Nav = () => {
     >
       <div className="flex items-center justify-between max-w-6xl mx-auto">
         <a href="/" className="text-2xl font-semibold">
-          <img src={headerLogo} alt="logo" className="w-32" />
+        <h1><strong><span>DELTA</span> SHOP</strong></h1>
+          {/* <img src={headerLogo} alt="logo" className="w-32" /> */}
         </a>
         <ul className="hidden space-x-6 lg:flex">
           {navLinks.map((item) => (
@@ -100,6 +102,10 @@ const Nav = () => {
         onClose={closeModal}
         onSignIn={handleSignIn}
       />
+      <div className="hidden lg:flex space-x-4 items-center">
+      <Sidebar />
+      </div>
+      
     </header>
   );
 };

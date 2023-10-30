@@ -1,4 +1,7 @@
 import { Nav } from "./components";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "./App.css";
 import {
   CustomerReviews,
   Footer,
@@ -7,22 +10,28 @@ import {
   Services,
   SpecialOffer,
   Subscribe,
-  SuperQuality,
+  // SuperQuality,
 } from "./sections";
+import Routes from './Routes'
+
+<ToastContainer />
 
 const App = () => {
   return (
     <main className="relative">
       <Nav />
+      <section>
+        <Routes/>
+      </section>
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
       <section className="padding">
         <PopularProducts />
       </section>
-      <section className="padding">
+      {/* <section className="padding">
         <SuperQuality />
-      </section>
+      </section> */}
       <section className="padding-x py-10">
         <Services />
       </section>
@@ -35,6 +44,7 @@ const App = () => {
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
       </section>
+      
       <section className=" bg-black padding-x padding-t pb-8">
         <Footer />
       </section>

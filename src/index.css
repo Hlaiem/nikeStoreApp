@@ -43,7 +43,9 @@
   .padding-r {
     @apply sm:pr-16 pr-8;
   }
-
+ span{
+  color: rgb(239, 11, 11);
+}
   .padding-t {
     @apply sm:pt-24 pt-12;
   }

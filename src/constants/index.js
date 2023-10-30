@@ -22,10 +22,10 @@ import {
 } from "../assets/images";
 
 export const navLinks = [
-  { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+  { href: "#Shoes", label: "Shoes" },
+  { href: "/Beaute", label: "Beaute&bien étre" },
+  { href: "/MaisonDeco", label: "Deco&Maison" },
+  { href: "/ITech", label: "I Tech" },
 ];
 
 export const shoes = [
@@ -55,6 +55,7 @@ export const products = [
     name: "Nike Air Jordan-01",
     price: "$200.20",
   },
+
   {
     imgURL: shoe5,
     name: "Nike Air Jordan-10",
@@ -112,12 +113,11 @@ export const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Beaute&bien étre", link: "Beaute" },
+      { name: "DECO&Maison", link: "/MaisonDeco" },
+      { name: "I Tech", link: "/ITech" },
+      { name: "Shoes", link: "/Shoes" },
+      
     ],
   },
   {
@@ -133,8 +133,8 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "customer@shop.com", link: "mailto:customer@nike.com" },
+      { name: "+9255486235", link: "tel:+9255486235" },
     ],
   },
 ];
