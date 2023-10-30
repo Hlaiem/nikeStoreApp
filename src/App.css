@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+span{
+  color: rgb(239, 11, 11);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -25,7 +28,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #2cc0e9;
 }
 
 .products-container {
@@ -91,7 +94,7 @@
   background-color: #060b26;
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content:flex-start;
   align-items: center;
 }
 
@@ -121,7 +124,7 @@
 
 .nav-text {
   display: flex;
-  justify-content: start;
+  justify-content:flex-start;
   align-items: center;
   padding: 8px 0px 8px 16px;
   list-style: none;
@@ -153,7 +156,7 @@
   width: 120%;
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content:flex-start;
   align-items: center;
 }
 

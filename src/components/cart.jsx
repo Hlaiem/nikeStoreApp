@@ -83,9 +83,15 @@ export default function Cart() {
               <div className="subtotal">
                 <span style={{marginLeft:'45px'}}><h5>Subtotal:</h5></span>
                 <span className="amount"><u>{cart.cartTotalAmount} DT</u></span>
+             
               </div>
+              
             </div>
+            <button className="btn btn-success">
+                 Purchase
+              </button>
           </div>
+          
         </div>
       )  
       }
