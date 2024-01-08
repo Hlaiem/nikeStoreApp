@@ -1,15 +1,15 @@
 
-import  bigshoe1 from '../assets/products/Shoes/bigshoe1.png'
+import  bigshoes1 from '../assets/products/Shoes/bigshoe1.png'
 
 
-import bigshoe2 from '../assets/products/Shoes/bigshoe2.png'
-import bigshoe3 from '../assets/products/Shoes/bigshoe3.png'
-import shoe4 from '../assets/products/Shoes/shoe4.svg'
-import shoe5 from '../assets/products/Shoes/shoe5.svg'
+import bigshoes2 from '../assets/products/Shoes/bigshoe2.png'
+import bigshoes3 from '../assets/products/Shoes/bigshoe3.png'
+import shoes4 from '../assets/products/Shoes/shoe4.svg'
+import shoes5 from '../assets/products/Shoes/shoe5.svg'
 
-import shoe6 from '../assets/products/Shoes/shoe6.svg'
-import shoe7 from '../assets/products/Shoes/shoe7.svg'
-import shoe8 from '../assets/products/Shoes/shoe8.svg'
+import shoes6 from '../assets/products/Shoes/shoe6.svg'
+import shoes7 from '../assets/products/Shoes/shoe7.svg'
+import shoes8 from '../assets/products/Shoes/shoe8.svg'
 /*
 import balanceCuisine3 from '../assets/products/Shoes/ice-cream-balance-de-cuisine  94dt.jpg'
 
@@ -38,74 +38,74 @@ export const dataShoes = [
 
 
 	{
-		name:'bigshoe1',
+		name:'bigshoes1',
 		category:'shoes',
 		brand:'Nike',
 		id:'1',
-		cover:bigshoe1,
+		cover:bigshoes1,
 		price:460,
 		rate:5
 	},
 	{
-		name:'bigshoe2',
+		name:'bigshoes2',
 		category:'shoes',
 		brand:'Nike',
 		id:'2',
-		cover:bigshoe2,
+		cover:bigshoes2,
 		price:510,
 		rate:5
 	},
 	{
-		name:'bigshoe3',
+		name:'bigshoes3',
 		category:'shoes',
 		brand:'Nike',
 		id:'3',
-		cover:bigshoe3,
+		cover:bigshoes3,
 		price:490,
 		rate:4
 	},
 	{
-		name:'shoe4',
+		name:'shoes4',
 		category:'shoes',
 		brand:'Nike',
 		id:'4',
-		cover:shoe4,
+		cover:shoes4,
 		price:440,
 		rate:4
 	},
 	{
-		name:'shoe5',
-		category:'carafe isolante',
+		name:'shoes5',
+		category:'shoes',
 		brand:'Nike',
 		id:'5',
-		cover:shoe5,
+		cover:shoes5,
 		price:520,
 		rate:5
 	},
 	{
-		name:'shoe6',
+		name:'shoes6',
 		category:'shoes',
 		brand:'Nike',
 		id:'6',
-		cover:shoe6,
+		cover:shoes6,
 		price:350,
 		rate:5
 	},
 	{
-		name:'shoe7',
+		name:'shoes7',
 		category:'shoes',
 		brand:'Nike',
 		id:'7',
-		cover:shoe7,
+		cover:shoes7,
 		price:450,
 		rate:5
 	},
 	{
-		name:'shoe8',
+		name:'shoes8',
 		category:'shoes',
 		brand:'Nike',
 		id:'8',
-		cover:shoe8,
+		cover:shoes8,
 		price:250,
 		rate:5
 	},

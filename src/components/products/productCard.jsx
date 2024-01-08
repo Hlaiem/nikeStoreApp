@@ -21,7 +21,7 @@ export default function ProductCard(props) {
         <Card.Text>{category}</Card.Text>
         <Card.Text style={{fontWeight:'bold'}}>{brand}</Card.Text>
        
-        <div className="star-rating" style={{marginBottom: "15px"}}>
+        <div className="star-rating" style={{marginBottom: "10px",display:"flex"}}>
           {[...Array(rate)].map((star, index) => {index += 1;
           return (
             <StarIcon key={index} color="#FBBF24" style={{ width: "20px", height: "20px" }} className={index <= rating ? "on" : "off"}/>
