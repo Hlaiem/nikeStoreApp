@@ -14,8 +14,8 @@ export default function ProductCard(props) {
   };
 
   return (
-    <Card className="product-card">
-      <Card.Img variant="top" src={cover} style={{height:'280px', width:'100%', }}/>
+    <Card className="product-card" style={{borderRadius:"51px", borderStyle: "inset"}}>
+      <Card.Img variant="top" src={cover}  alt={name} style={{height:'280px', width:'100%' }}/>
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{category}</Card.Text>

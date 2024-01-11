@@ -20,7 +20,7 @@ import thumbnailBackground from './thumbnail-background.svg'
 import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
-
+import lenovoportable from './lenovo-portable-v15.jpg'
 export {
     bigShoe1,
     bigShoe2,
@@ -42,5 +42,6 @@ export {
     thumbnailBackground,
     thumbnailShoe1,
     thumbnailShoe2,
-    thumbnailShoe3
+    thumbnailShoe3,
+    lenovoportable
 }
