@@ -60,7 +60,7 @@ export default function productBeaute() {
               </Row>
             ))}
         </Container>
-  
+{/*   
         <Container>
           {tabCateg.map(elt => (
             <>
@@ -78,7 +78,7 @@ export default function productBeaute() {
               </Container>
             </>
           ))}
-        </Container>
+        </Container> */}
       </Container>
     );
 }

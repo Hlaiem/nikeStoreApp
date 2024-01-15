@@ -4,6 +4,9 @@ import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 import SignInSignUpModal from "./SignInSignUp";
 import Sidebar from "./sidebar";
+import {Badge}  from "react-bootstrap";
+import { useSelector } from "react-redux";
+import Cart from "./cart";
 
 const Nav = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -11,7 +14,10 @@ const Nav = () => {
   const [loggedIn, setLoggedIn] = useState(
     localStorage.getItem("loggedIn") === "true"
   );
+  const [showP, setShowP] = useState(false);
 
+  const cart = useSelector((state) => state.cart);
+  
   const openModal = () => {
     setIsModalOpen(true);
   };
@@ -19,6 +25,7 @@ const Nav = () => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
+  const handleShowP = () => setShowP(true);
 
   const handleSignIn = (success) => {
     setLoggedIn(success);
@@ -102,8 +109,18 @@ const Nav = () => {
         onClose={closeModal}
         onSignIn={handleSignIn}
       />
+      <div onClick={handleShowP}>
+        <div style={{position:'relative' }}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="31"  height="30" fill="white" className="bi bi-cart-fill" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </svg>
+        <Badge bg="danger" style={{position:'relative', left:'0',top:'-40px', backgroundColor:'#DC3545'}}>{cart.cartItems.length}</Badge>
+        </div>
+      </div>
+
       <div className="hidden lg:flex space-x-4 items-center">
-      <Sidebar />
+      <Sidebar showP={showP} />
+
       </div>
       
     </header>
