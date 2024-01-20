@@ -28,7 +28,7 @@ export default function ProductCard(props) {
         );
           })}
         </div>
-      <Card.Title>{price} DT</Card.Title>
+      <Card.Title className="price-product-card"> $ {price} </Card.Title>
       <div className="overlay" onClick={() => handleAddToCart(props.item)}>
         <div style={{display:'flex', color:'white', margin:'0 auto 0 auto', paddingTop:'28px', textAlign:'center', alignItems:'center', justifyContent:'center'}}>
         <h4 style={{textAlign:'center', marginRight:'10px', }}>Add to cart</h4>

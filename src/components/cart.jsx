@@ -54,11 +54,11 @@ export default function Cart() {
                         <h5>{cartItem.name}</h5>
                         <div style={{display:'flex', position:'relative'}}>
                           <h5>{cartItem.cartQuantity} X </h5>
-                          <h5 style={{marginLeft:'10px'}}>{cartItem.price} DT </h5>
+                          <h5 style={{marginLeft:'10px', color:'#ff6452'}}> $ {cartItem.price} </h5>
                         </div>
                         <div className="cart-product-total-price">
                           <h5>
-                            {cartItem.price * cartItem.cartQuantity} DT
+                          $ {cartItem.price * cartItem.cartQuantity}
                           </h5>
                   </div>
                       </div>
@@ -81,8 +81,8 @@ export default function Cart() {
             </button>
             <div className="cart-checkout">
               <div className="subtotal">
-                <span style={{marginLeft:'45px'}}><h5>Subtotal:</h5></span>
-                <span className="amount"><u>{cart.cartTotalAmount} DT</u></span>
+                <span style={{marginLeft:'15px'}}><h5>Subtotal:</h5></span>
+                <span className="amount"><u> $ {cart.cartTotalAmount} </u></span>
              
               </div>
               

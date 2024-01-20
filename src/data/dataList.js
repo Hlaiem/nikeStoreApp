@@ -22,6 +22,7 @@ import brosse from '../assets/products/Soins, Beauté & Fitness/brosse-chauffant
 import coffret from '../assets/products/Soins, Beauté & Fitness/coffret-argilo-argan.jpg'
 import coffret1 from '../assets/products/Soins, Beauté & Fitness/coffret-argilo-l-aloe-vera.jpg'
 import deodorant from '../assets/products/Soins, Beauté & Fitness/deodorant-homme-dry-impact-anti-transpirant.jpg'
+
 export const dataList = [
 
 	{

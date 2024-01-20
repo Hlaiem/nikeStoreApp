@@ -6,7 +6,7 @@ import {
   Hero,
   PopularProducts,
   Services,
-  SpecialOffer,
+  //SpecialOffer,
   Subscribe,
   // SuperQuality,
 } from "../sections";
@@ -27,9 +27,9 @@ export default function Home() {
       <section className="padding-x py-10">
         <Services />
       </section>
-      <section className="padding">
+      {/* <section className="padding">
         <SpecialOffer />
-      </section>
+      </section> */}
       <section className="bg-pale-blue padding">
         <CustomerReviews />
       </section>

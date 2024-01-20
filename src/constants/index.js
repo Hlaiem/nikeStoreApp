@@ -19,6 +19,10 @@ import {
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
+  product3,
+  product1,
+  product2,
+  product4,
 } from "../assets/images";
 
 export const navLinks = [
@@ -42,6 +46,8 @@ export const shoes = [
     thumbnail: thumbnailShoe3,
     bigShoe: bigShoe3,
   },
+ 
+ 
 ];
 
 export const statistics = [
@@ -58,20 +64,46 @@ export const products = [
   },
 
   {
+    imgURL: product2,
+    name: "machine a cafe nespresso",
+    price: "$285",
+  },
+
+  {
     imgURL: shoe5,
     name: "Nike Air Jordan-10",
     price: "$210.20",
   },
   {
+    imgURL: product3,
+    name: "mini-chaine ROADSTAR",
+    price: "$130.20",
+  },
+  {
+    imgURL: product4,
+    name: "tondeuse hair 3 en 1 Silverbleu",
+    price: "$185",
+  },
+
+  {
     imgURL: shoe6,
     name: "Nike Air Jordan-100",
     price: "$220.20",
+  },
+ 
+  {
+    imgURL: product1,
+    name: "PC portable LENOVO",
+    price: "$1285",
   },
   {
     imgURL: shoe7,
     name: "Nike Air Jordan-001",
     price: "$230.20",
   },
+
+
+
 ];
 
 export const services = [

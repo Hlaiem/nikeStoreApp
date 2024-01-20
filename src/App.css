@@ -6,6 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+.chariot{
+  position: relative;
+ 
+}
+.bg-danger{
+  position:relative;
+  left:0;
+  top:-40px;
+  
+ 
+}
+
 span{
   color: rgb(239, 11, 11);
 }
@@ -25,10 +37,11 @@ span{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+ 
 }
 
 .App-link {
-  color: #2cc0e9;
+  color: #266c7f;
 }
 
 .products-container {
@@ -318,6 +331,7 @@ span {
   padding-right: 0.5rem;
   justify-self: right;
   font-weight: 700;
+  color: #ff6452;
 }
 
 /* cart summary */
@@ -351,6 +365,11 @@ span {
 }
 .cart-checkout .amount {
   font-weight: 700;
+  color: #ff6452;
+  margin-right: 20px;
+}
+.product-card .price-product-card{
+  color: #ff6452;
 }
 .cart-checkout p {
   font-size: 14px;
@@ -425,4 +444,5 @@ span {
   .cart-summary .clear-btn {
     margin-bottom: 2rem;
   }
+ 
 }

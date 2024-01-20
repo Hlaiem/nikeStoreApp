@@ -6,44 +6,46 @@ import carousel3 from '../assets/carousel/images (5).jpg'
 import carousel4 from '../assets/carousel/images (8).jpg'
 import carousel5 from '../assets/carousel/images (9).jpg'
 import carousel6 from '../assets/carousel/images (12).jpg'
+import carousel7 from '../assets/carousel/big-shoe2 (3).png'
+
 import { Container } from 'react-bootstrap';
 
 export default function CarousselMain() {
   return (
-    <Container style={{width:'950px', height:'300px'}}>
+    <Container style={{width:'850px', height:'300px'}}>
     <Carousel style={{marginBottom:'80px'}}>
       <Carousel.Item >
-        <img src={carousel1} style={{width:'950px', height:'300px'}} alt="carousel-img" />
+        <img src={carousel1} style={{width:'850px', height:'300px'}} alt="carousel-img" />
       
         <div  style={{position:'absolute', width:'600px', height:'350px', top:'150px', left:'200px', borderRadius:'20px', opacity: '0.5'}}>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={carousel2} style={{width:'950px', height:'300px'}} alt="carousel-img" />
+        <img src={carousel2} style={{width:'850px', height:'300px'}} alt="carousel-img" />
      
         <div  style={{position:'absolute', width:'600px', height:'350px', top:'150px', left:'400px', borderRadius:'20px', opacity: '0.5'}}>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={carousel3} style={{width:'950px', height:'300px'}} alt="carousel-img" />
+        <img src={carousel3} style={{width:'850px', height:'300px'}} alt="carousel-img" />
       
         <div  style={{position:'absolute', width:'600px', height:'350px', top:'150px', left:'200px', borderRadius:'20px', opacity: '0.5'}}>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={carousel4} style={{width:'950px', height:'300px'}} alt="carousel-img" />
+        <img src={carousel7} style={{width:'850px', height:'300px'}} alt="carousel-img" />
       
         <div  style={{position:'absolute', width:'600px', height:'350px', top:'150px', left:'200px', borderRadius:'20px', opacity: '0.5'}}>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={carousel5} style={{width:'950px', height:'300px'}} alt="carousel-img" />
+        <img src={carousel5} style={{width:'850px', height:'300px'}} alt="carousel-img" />
        
         <div  style={{position:'absolute', width:'600px', height:'350px', top:'150px', left:'200px', borderRadius:'20px', opacity: '0.5'}}>
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={carousel6} style={{width:'950px', height:'300px'}} alt="carousel-img" />
+        <img src={carousel6} style={{width:'850px', height:'300px'}} alt="carousel-img" />
     
         <div  style={{position:'absolute', width:'600px', height:'350px', top:'150px', left:'200px', borderRadius:'20px', opacity: '0.5'}}>
         </div>
