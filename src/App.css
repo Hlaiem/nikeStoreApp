@@ -71,8 +71,8 @@ span{
 	width: 300px;
 	height: 200px;
 	opacity: 0;
-	transition: .5s ease;
-	background-color: #252525;
+	transition: 0.5s ease;
+	background-color: #080ea8;
 }
   
 .product-card:hover .overlay {
@@ -446,3 +446,4 @@ span {
   }
  
 }
+

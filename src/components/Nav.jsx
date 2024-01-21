@@ -68,12 +68,12 @@ const Nav = () => {
         <h1><strong><span>DELTA</span> SHOP</strong></h1>
           {/* <img src={headerLogo} alt="logo" className="w-32" /> */}
         </a>
-        <ul className="hidden space-x-6 lg:flex">
+        <ul className="text-xl hidden space-x-16 lg:flex">
           {navLinks.map((item) => (
             <li key={item.label}>
               <a
                 href={item.href}
-                className="hover:text-blue-500 transition duration-300"
+                className="hover:text-red-500 transition duration-300"
               >
                 {item.label}
               </a>
@@ -83,7 +83,7 @@ const Nav = () => {
         {loggedIn ? (
           <div className="flex space-x-4 items-center">
             <button
-              className="text-blue-500 hover:underline"
+              className="text-white bg-red-500 hover:bg-red-600 px-2 py-1 rounded"
               onClick={handleSignOut}
             >
               Sign out
