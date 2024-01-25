@@ -60,25 +60,7 @@ export default function productBeaute() {
               </Row>
             ))}
         </Container>
-{/*   
-        <Container>
-          {tabCateg.map(elt => (
-            <>
-              <h3>{elt}</h3>
-              <Container className="products-container">
-                {products
-                  .filter((element) => element.category === elt)
-                  .map((product, index) => (
-                    <Row key={index}>
-                      <Col xs={6} md={3}>
-                        <ProductCard key={product.id} item={product} />
-                      </Col>
-                    </Row>
-                  ))}
-              </Container>
-            </>
-          ))}
-        </Container> */}
+
       </Container>
     );
 }
